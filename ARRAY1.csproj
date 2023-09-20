@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{058EC7A6-F995-4ED1-ACD6-8BAE827A66C8}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Array</RootNamespace>
+    <AssemblyName>ARRAY1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Array.Sumprime_array</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="alternate_array.cs" />
+    <Compile Include="alter_array.cs" />
+    <Compile Include="asendingsort_array.cs" />
+    <Compile Include="Ase_array.cs" />
+    <Compile Include="Avg.cs" />
+    <Compile Include="Avgofeven_array.cs" />
+    <Compile Include="avgofprime_array.cs" />
+    <Compile Include="Bookarray1.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Collection_array.cs" />
+    <Compile Include="Delegatesdemo\Bankdemo.cs" />
+    <Compile Include="Delegatesdemo\deledemo.cs" />
+    <Compile Include="Delegatesdemo\main.cs" />
+    <Compile Include="Delegatesdemo\Studentdemo.cs" />
+    <Compile Include="Delegatesdemo\Userdel.cs" />
+    <Compile Include="Delegatesdemo\Userdelegatedemo.cs" />
+    <Compile Include="dicbasic.cs" />
+    <Compile Include="duplicatelement.cs" />
+    <Compile Include="Duplicatele_array.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Equality_array.cs" />
+    <Compile Include="Even.cs" />
+    <Compile Include="Evenandodd.cs" />
+    <Compile Include="evenno_array.cs" />
+    <Compile Include="ExceptionHandling\Employee.cs" />
+    <Compile Include="ExceptionHandling\Name.cs" />
+    <Compile Include="Foreach.cs" />
+    <Compile Include="Frequnecyofcount_array.cs" />
+    <Compile Include="Generic array\arraylist1.cs" />
+    <Compile Include="Generic array\BasicDictionary.cs" />
+    <Compile Include="Generic array\Book.cs" />
+    <Compile Include="Generic array\duplicate.cs" />
+    <Compile Include="Generic array\frquency_.cs" />
+    <Compile Include="Generic array\vaious.cs" />
+    <Compile Include="hashset\basic.cs" />
+    <Compile Include="hashset\Emphashset.cs" />
+    <Compile Include="ICPlayer.cs" />
+    <Compile Include="Impcoun_hashtable.cs" />
+    <Compile Include="India_string.cs" />
+    <Compile Include="Jaggedarray.cs" />
+    <Compile Include="Maxchar_array.cs" />
+    <Compile Include="Maximum_and_minimum.cs" />
+    <Compile Include="Min_array.cs" />
+    <Compile Include="Name.cs" />
+    <Compile Include="negative_array.cs" />
+    <Compile Include="oddpostion_array.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Present_array.cs" />
+    <Compile Include="Prime_array.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="productcom.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reversecurrent_array.cs" />
+    <Compile Include="Search_array.cs" />
+    <Compile Include="String1\alphabet_string.cs" />
+    <Compile Include="String1\Anagramnumber.cs" />
+    <Compile Include="String1\anagram_string.cs" />
+    <Compile Include="String1\Frequency_string.cs" />
+    <Compile Include="String1\India_string.cs" />
+    <Compile Include="String1\Longestword_string.cs" />
+    <Compile Include="String1\reverse_string.cs" />
+    <Compile Include="String1\Toggle1.cs" />
+    <Compile Include="String1\Toggle_string.cs" />
+    <Compile Include="String1\Token_array.cs" />
+    <Compile Include="String1\vowelcon_string.cs" />
+    <Compile Include="stringin_array.cs" />
+    <Compile Include="St_array.cs" />
+    <Compile Include="stringbui_array.cs" />
+    <Compile Include="Sumofalternate_arraycs.cs" />
+    <Compile Include="sumofelement_array.cs" />
+    <Compile Include="Sumprime_array.cs" />
+    <Compile Include="token_array.cs" />
+    <Compile Include="Uniqueelement_array.cs" />
+    <Compile Include="Vowels_array.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
